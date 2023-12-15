@@ -45,7 +45,7 @@ In: Proceedings of the 31st Annual ACM Symposium on Applied Computing. pp.
 "
 
 In this paper, I have worked with Jens Peek (542716jp) as programming buddy. We worked in R and created different R scripts for in-sample evaluation and out-of-sample evaluation.
-The in-sample script needs to be run first, thereafter the out-of-sample script can be run. The latter script is quite similar to the former, but uses the resulting parameters from the former as input. As of this, only the in-sample code will be described below. The out-of-sample simply uses one parameter value per parameter and the test data, obtained by using the same seed as in the training case. 
+The in-sample script needs to be run first, thereafter the out-of-sample script can be run (if TVs-all-merged.json and television brands.xlsx are downloaded and their paths are set correctly in the code, running the whole code for both scripts will end in the corresponding results) The latter script is quite similar to the former, but uses the resulting parameters from the former as input. As of this, only the in-sample code will be described below. The out-of-sample simply uses one parameter value per parameter and the test data, obtained by using the same seed as in the training case. 
 We are particularly interested in the results of the out-of-sample script. 
 
 The data used is that of TVs-all-merged.json and television brands.xlsx. 
